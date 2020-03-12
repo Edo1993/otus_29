@@ -1,0 +1,12 @@
+---
+- name: config master host
+  hosts: master
+  become: true
+  roles:
+    - role: master
+
+- name: config slave host
+  hosts: slave
+  become: true
+  roles:
+    - role: slave
