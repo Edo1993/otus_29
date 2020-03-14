@@ -26,4 +26,18 @@
 
 _____________________________________________________________________________________________________________________________
 
-Vagrantfile
+Проверка:
+
+Vagrantfile поднимаем ```vagrant up```. На мастере:
+```
+USE bet;
+INSERT INTO bookmaker (id,bookmaker_name) VALUES(1,'1xbet');
+SELECT * FROM bookmaker;
+```
+![Img_alt](https://github.com/Edo1993/otus_29/blob/master/291master.png)
+
+На слейве:
+
+![Img_alt](https://github.com/Edo1993/otus_29/blob/master/291slave.png)
+
+![Img_alt](https://github.com/Edo1993/otus_29/blob/master/292.png)
