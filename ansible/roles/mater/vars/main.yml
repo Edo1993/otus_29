@@ -1,4 +1,0 @@
----
-mysql_root_password: "@OtusLinux_2020@"
-replication_user: "repl"
-replication_password: "@OtusLinux_Replica2020@"
